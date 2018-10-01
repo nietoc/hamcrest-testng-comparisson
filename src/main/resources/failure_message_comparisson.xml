@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Failure message (reason) comparisson">
+        <classes>
+            <class name="FailureReasons">
+                <methods>
+                    <include name="assertTrueWithMessageTest"/>
+                    <include name="assertTrueWithMessageHamcrestTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

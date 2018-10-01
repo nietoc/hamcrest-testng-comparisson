@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Contains string comparisson">
+        <classes>
+            <class name="TextMatchers">
+                <methods>
+                    <include name="emptyOrNullStringTestNGTest"/>
+                    <include name="emptyOrNullStringTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
