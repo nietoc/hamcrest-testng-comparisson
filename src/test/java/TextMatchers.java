@@ -26,35 +26,35 @@ public class TextMatchers {
     private static final String NULL_TEXT = null;
 
     @Test
-    public void containsStringTestNGTest() {
+    public void containsStringTestNgTest() {
         log.info("String.contains using TestNG:");
         Assert.assertTrue(TEXT_WITH_NAMES.contains(EXPECTED_SUBSTRING));
         Assert.assertTrue(TEXT_WITH_NAMES.contains(NON_PRESENT_SUBSTRING));
     }
 
     @Test
-    public void containsStringTest() {
+    public void containsStringHamcrestTest() {
         log.info("Hamcrest's containsString:");
         assertThat(TEXT_WITH_NAMES, containsString(EXPECTED_SUBSTRING));
         assertThat(TEXT_WITH_NAMES, containsString(NON_PRESENT_SUBSTRING));
     }
 
     @Test
-    public void equalToIgnoringCaseTestNGTest() {
+    public void equalsIgnoreCaseTestNgTest() {
         log.info("String.equalsIgnoreCase using TestNG:");
         Assert.assertTrue(UPPERCASE_TEXT.equalsIgnoreCase(LOWERCASE_TEXT));
         Assert.assertTrue(UPPERCASE_TEXT.equalsIgnoreCase(NON_PRESENT_SUBSTRING));
     }
 
     @Test
-    public void equalToIgnoringCaseTest() {
+    public void equalToIgnoringHamcrestCaseTest() {
         log.info("Hamcrest's equalToIgnoringCase:");
         assertThat(UPPERCASE_TEXT, is(equalToIgnoringCase(LOWERCASE_TEXT)));
         assertThat(UPPERCASE_TEXT, is(equalToIgnoringCase(NON_PRESENT_SUBSTRING)));
     }
 
     @Test
-    public void emptyOrNullStringTestNGTest() {
+    public void emptyOrNullStringTestNgTest() {
         log.info("Empy or null string using TestNG:");
         Assert.assertNull(NULL_TEXT);
         Assert.assertTrue(EMPTY_TEXT.isEmpty());
@@ -63,7 +63,7 @@ public class TextMatchers {
     }
 
     @Test
-    public void emptyOrNullStringTest() {
+    public void emptyOrNullStringHamcrestTest() {
         log.info("Hamcrest's emptyOrNullString:");
         assertThat(EMPTY_TEXT, is(isEmptyOrNullString()));
         assertThat(NULL_TEXT, is(isEmptyOrNullString()));

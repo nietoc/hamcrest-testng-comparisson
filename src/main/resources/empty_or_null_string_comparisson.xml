@@ -4,8 +4,8 @@
         <classes>
             <class name="TextMatchers">
                 <methods>
-                    <include name="emptyOrNullStringTestNGTest"/>
-                    <include name="emptyOrNullStringTest"/>
+                    <include name="emptyOrNullStringTestNgTest"/>
+                    <include name="emptyOrNullStringHamcrestTest"/>
                 </methods>
             </class>
         </classes>

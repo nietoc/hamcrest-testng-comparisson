@@ -4,8 +4,8 @@
         <classes>
             <class name="TextMatchers">
                 <methods>
-                    <include name="equalToIgnoringCaseTestNGTest"/>
-                    <include name="equalToIgnoringCaseTest"/>
+                    <include name="equalsIgnoreCaseTestNgTest"/>
+                    <include name="equalToIgnoringHamcrestCaseTest"/>
                 </methods>
             </class>
         </classes>
