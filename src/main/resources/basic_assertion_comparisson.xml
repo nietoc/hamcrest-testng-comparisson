@@ -4,8 +4,8 @@
         <classes>
             <class name="BaseFunctionality">
                 <methods>
-                    <include name="assertTrueTest"/>
-                    <include name="assertTrueHamcrestTest"/>
+                    <include name="assertTrueTestNgTest"/>
+                    <include name="equalToHamcrestTest"/>
                 </methods>
             </class>
         </classes>

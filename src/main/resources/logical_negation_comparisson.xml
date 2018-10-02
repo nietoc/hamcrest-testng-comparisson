@@ -4,8 +4,8 @@
         <classes>
             <class name="BaseFunctionality">
                 <methods>
-                    <include name="logicalNegationTestNGTest"/>
-                    <include name="logicalNegationAssertFalseTestNGTest"/>
+                    <include name="logicalNegationTestNgTest"/>
+                    <include name="logicalNegationAssertFalseTestNgTest"/>
                     <include name="logicalNegationHamcrestTest"/>
                 </methods>
             </class>
