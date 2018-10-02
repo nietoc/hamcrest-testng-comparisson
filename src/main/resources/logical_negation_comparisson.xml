@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Logical negation comparisson">
+        <classes>
+            <class name="BaseFunctionality">
+                <methods>
+                    <include name="logicalNegationTestNGTest"/>
+                    <include name="logicalNegationAssertFalseTestNGTest"/>
+                    <include name="logicalNegationHamcrestTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
