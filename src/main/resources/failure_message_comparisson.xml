@@ -2,7 +2,7 @@
 <suite name="Test suite">
     <test name="Failure message (reason) comparisson">
         <classes>
-            <class name="FailureReasons">
+            <class name="BaseFunctionality">
                 <methods>
                     <include name="assertTrueWithMessageTest"/>
                     <include name="assertTrueWithMessageHamcrestTest"/>

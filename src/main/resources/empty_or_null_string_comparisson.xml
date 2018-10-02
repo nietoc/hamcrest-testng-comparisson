@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test suite">
-    <test name="Contains string comparisson">
+    <test name="Empty or null String comparisson">
         <classes>
             <class name="TextMatchers">
                 <methods>

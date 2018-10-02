@@ -2,7 +2,7 @@
 <suite name="Test suite">
     <test name="Basic comparisson between both assertions">
         <classes>
-            <class name="FailureReasons">
+            <class name="BaseFunctionality">
                 <methods>
                     <include name="assertTrueTest"/>
                     <include name="assertTrueHamcrestTest"/>
