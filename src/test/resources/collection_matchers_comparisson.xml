@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Collection matchers comparisson">
+    <test name="has item">
+        <classes>
+            <class name="CollectionMatchers">
+                <methods>
+                    <include name="hasItemHamcrestTest"/>
+                    <include name="hasItemTestNgTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="has size">
+        <classes>
+            <class name="CollectionMatchers">
+                <methods>
+                    <include name="hasSizeHamcrestTest"/>
+                    <include name="hasSizeTestNgTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="every item">
+        <classes>
+            <class name="CollectionMatchers">
+                <methods>
+                    <include name="everyItemHamcrestTest"/>
+                    <include name="everyItemTestNgTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
