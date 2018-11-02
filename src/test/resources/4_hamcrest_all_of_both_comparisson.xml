@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Showcase of Hamcrest's 'allOf' Matcher">
+        <classes>
+            <class name="AllOfMatcher">
+                <methods>
+                    <include name="allOfMatcherTestA"/>
+                    <include name="allOfMatcherTestB"/>
+                    <include name="allOfMatcherTestC"/>
+                    <include name="allOfNeitherIsMetTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Hamcrest's 'both' Matcher">
+        <classes>
+            <class name="AllOfMatcher">
+                <methods>
+                    <include name="bothMatcherTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

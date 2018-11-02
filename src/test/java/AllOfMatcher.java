@@ -11,7 +11,7 @@ import static org.hamcrest.number.OrderingComparison.lessThanOrEqualTo;
 public class AllOfMatcher {
 
     @Test
-    public void allOfMatcheTestA() {
+    public void allOfMatcherTestA() {
         assertNumberBetweenRange(5, 0, 10);
         assertNumberBetweenRange(5, 4, 5);
         log.info("5 is not greater than 5 - using 'assertNumberBetweenRange'");
@@ -19,13 +19,13 @@ public class AllOfMatcher {
     }
 
     @Test
-    public void allOfMatcheTestB() {
+    public void allOfMatcherTestB() {
         log.info("5 is less than 5");
         assertNumberBetweenRange(5, 10, 20);
     }
 
     @Test
-    public void allOfMatcheTestC() {
+    public void allOfMatcherTestC() {
         log.info("30 is greater than 20");
         assertNumberBetweenRange(30, 10, 20);
     }

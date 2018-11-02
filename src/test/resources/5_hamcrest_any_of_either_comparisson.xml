@@ -1,9 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test suite">
-    <test name="Comparisson of Hamcrest's 'allOf' and 'both' Matchers">
+    <test name="Comparisson of Hamcrest's 'anyOf' and 'either' Matchers">
         <classes>
-            <class name="AnyOfMatcher">
-            </class>
+            <class name="AnyOfMatcher"/>
         </classes>
     </test>
 </suite>

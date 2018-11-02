@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Basic comparisson between both assertions">
+        <classes>
+            <class name="BaseFunctionality">
+                <methods>
+                    <include name="assertTrueTestNgTest"/>
+                    <include name="equalToHamcrestTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Failure message (reason) comparisson">
+        <classes>
+            <class name="BaseFunctionality">
+                <methods>
+                    <include name="assertEqualsWithMessageTestNGTest"/>
+                    <include name="equalToWithMessageHamcrestTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Logical negation comparisson">
+        <classes>
+            <class name="BaseFunctionality">
+                <methods>
+                    <include name="logicalNegationTestNgTest"/>
+                    <include name="logicalNegationAssertFalseTestNgTest"/>
+                    <include name="logicalNegationHamcrestTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
