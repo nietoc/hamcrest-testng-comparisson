@@ -1,5 +1,8 @@
 `@TODO: Pretty-up the readme`
 
+To run any Test Suite using maven specify the XML file like so
+`mvn clean test -DsuiteXmlFile=src/test/resources/empty_or_null_string_comparisson.xml`
+
 Additional documentation and examples can be found here:
 
 https://code.google.com/archive/p/hamcrest/wikis/Tutorial.wiki
