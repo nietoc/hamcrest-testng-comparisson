@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Comparisson of the closeTo matcher">
+        <classes>
+            <class name="CloseToNumber"/>
+        </classes>
+    </test>
+</suite>
