@@ -1,12 +1,19 @@
-`@TODO: Pretty-up the readme`
+This repository contains a basic set of code examples useful for visualizing the differences between `TestNG`'s core assertions against `Hamcrest` matchers.
 
-To run any Test Suite using maven specify the XML file like so
+Any of the tests can be executed using your IDE's (e.g. IntelliJ IDEA) test runner.
+
+Alternatively, any Test Suite can be run using maven by specifying the XML file like so:
 `mvn clean test -DsuiteXmlFile=src/test/resources/empty_or_null_string_comparisson.xml`
+
 
 Additional documentation and examples can be found here:
 
-https://code.google.com/archive/p/hamcrest/wikis/Tutorial.wiki
+**Official**
+
+http://hamcrest.org/JavaHamcrest/tutorial
 http://hamcrest.org/JavaHamcrest/javadoc/2.0.0.0/
+
+**Third party tutorials**
 
 https://www.baeldung.com/java-junit-hamcrest-guide
 https://www.baeldung.com/hamcrest-core-matchers
